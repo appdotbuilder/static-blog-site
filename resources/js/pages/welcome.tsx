@@ -96,6 +96,22 @@ export default function Welcome({ posts, popularPosts, categories, tags, searchT
                             <div className="text-sm text-blue-100">Practical Tips</div>
                         </div>
                     </div>
+                    
+                    {/* Call to Action */}
+                    <div className="mt-12 flex flex-col sm:flex-row gap-4 justify-center">
+                        <a
+                            href="/login"
+                            className="bg-white text-blue-600 px-8 py-3 rounded-lg font-semibold hover:bg-gray-100 transition-colors inline-flex items-center justify-center"
+                        >
+                            🚀 Join Our Community
+                        </a>
+                        <a
+                            href="/register"
+                            className="bg-transparent border-2 border-white text-white px-8 py-3 rounded-lg font-semibold hover:bg-white hover:text-blue-600 transition-colors inline-flex items-center justify-center"
+                        >
+                            📝 Start Writing Today
+                        </a>
+                    </div>
                 </div>
             </section>
 
